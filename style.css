@@ -1,0 +1,7 @@
+.myimage {
+    filter: brightness(50%);
+}
+
+.overlay {
+    top: 35%;
+}
