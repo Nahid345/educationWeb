@@ -45,9 +45,48 @@
                             <a class="nav-link " href="#">Register</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <button class="btn btn-primary" type="submit">Login</button>
-                    </form>
+
+                    <!-- login form start -->
+
+
+
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#logindemo">Login
+
+                    </button>
+
+                    <div id="logindemo" class="modal fade">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-body">
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+
+                                    </button>
+                                    <div class="myform ">
+                                        <h1 class="text-center ">Login Form</h1>
+                                        <form action="#">
+                                            <div class="mb-3 mt-3">
+                                                <label for="email">Email Address</label>
+                                                <input type="email" class="form-control">
+                                            </div>
+                                            <div class="mb-3 mt-3">
+                                                <label for="email"> Password</label>
+                                                <input type="password" class="form-control">
+                                            </div>
+                                            <button type="button" class="btn btn-light mt-3">LOGIN</button>
+                                            <P class="para">Not a Member <a href="#">SignUp</a></P>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- login form ends -->
+
+
+
+
                 </div>
             </div>
         </nav>

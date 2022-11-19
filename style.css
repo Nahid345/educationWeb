@@ -5,3 +5,80 @@
 .overlay {
     top: 35%;
 }
+
+
+/* Login form  modal style*/
+
+.myform {
+    max-width: 100%;
+}
+
+.modal-body {
+    padding: 0px;
+}
+
+.btn-close {
+    position: absolute;
+    right: 0;
+    padding: 1rem;
+}
+
+.modal-content {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.modal-body {
+    padding: 0px;
+}
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.myform {
+    padding: 2rem;
+    max-width: 100%;
+    color: #fff;
+    box-shadow: 0px 4px 6px 0px rgba(22, 22, 26, 0.18);
+    @media(max-width: 576px) {
+        max: width 90%;
+        margin: 0px auto;
+    }
+}
+
+.form-control {
+    background-color: inherit;
+    color: #fff;
+    padding-left: 0px;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+}
+
+.myform .btn {
+    width: 100%;
+    font-weight: 800;
+    background-color: #fff;
+    border-radius: 0px;
+    padding: 0.5rem 0;
+}
+
+.myform.btn:hovar {
+    color: #333;
+}
+
+.para {
+    text-align: center;
+    padding-top: 2rem;
+    color: grey;
+}
+
+.para a {
+    color: #e1e1e1;
+    text-decoration: none;
+}
+
+.para a:hovar {
+    color: #fff;
+}
