@@ -41,9 +41,9 @@
                         <li class="nav-item">
                             <a class="nav-link " href="#">About</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link " href="#">Register</a>
-                        </li>
+                        </li> -->
                     </ul>
 
                     <!-- login form start -->
@@ -310,7 +310,6 @@
     <!-- Register section -->
 
 
-
     <!-- ready to join section work start  -->
     <section class="container bg-primary mt-5 p-5" id="success">
         <div class="row">
@@ -320,37 +319,52 @@
                     In this courses you'll get the best output in your life. Many students already enroll this course. So, What do you think?
                 </p>
             </div>
-            <div class="col-lg-6 text-center">
+            <div class="col-lg-6 ">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary bg-light text-primary mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Register Now
+                <div class="text-center">
+                    <button type="button" class="btn btn-primary bg-light text-primary mt-5" data-bs-toggle="modal" data-bs-target="#Registerdemo" id="signup">
+                        Register Now
+                </div>
             </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title " id="exampleModalLabel">
-                                    Ed Tech
-                                </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">Update Coming Soon...</div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                      Close
-                    </button>
-                                <button type="button" class="btn btn-primary">
-                      Save changes
-                    </button>
+                    <!-- Modal -->
+                    <div id="Registerdemo" class="modal fade">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-body">
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+
+                                </button>
+                                    <div class="myform ">
+                                        <h1 class="text-center ">Register Form</h1>
+                                        <form action="#">
+                                            <div class=" mb-3 mt-3 ">
+                                                <label for="Name">Name</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+
+                                            <div class="mb-3 mt-3">
+                                                <label for="email">Email Address</label>
+                                                <input type="email" class="form-control">
+                                            </div>
+                                            <div class="mb-3 mt-3">
+                                                <label for="email"> Password</label>
+                                                <input type="password" class="form-control">
+                                            </div>
+                                            <button type="button" class="btn btn-light mt-3">LOGIN</button>
+                                            <P class="para"> <a href="#">SignUp</a></P>
+                                        </form>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
+    <!-- ready to join section work End  -->
+
     <!-- ready to join section work End  -->
 
 
