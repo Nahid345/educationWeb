@@ -82,3 +82,7 @@ h1 {
 .para a:hovar {
     color: #fff;
 }
+
+#btn-login a {
+    text-decoration: none;
+}
